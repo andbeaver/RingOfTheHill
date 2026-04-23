@@ -1,0 +1,55 @@
+const rings = [
+  {
+    id: 'r1',
+    name: 'Solitaire - Twisted Knot Band',
+    url: 'https://i.etsystatic.com/25066512/r/il/981039/6130253057/il_1588xN.6130253057_fr0a.jpg'
+  },
+  {
+    id: 'r2',
+    name: 'Solitaire - Deco Band',
+    url: 'https://i.etsystatic.com/54843041/r/il/ef28d7/6353523158/il_1588xN.6353523158_mmnb.jpg'
+  },
+  {
+    id: 'r3',
+    name: 'Solitaire - Side Stones',
+    url: 'https://i.etsystatic.com/64957283/r/il/3f9c0d/7897020869/il_794xN.7897020869_i4gr.jpg'
+  },
+  {
+    id: 'r4',
+    name: 'Crossover',
+    url: 'https://i.etsystatic.com/64955952/r/il/ff2835/7896467575/il_794xN.7896467575_6s0n.jpg'
+  },
+  {
+    id: 'r5',
+    name: 'Side Oval',
+    url: 'https://i.etsystatic.com/25066512/r/il/a665b5/7428860262/il_794xN.7428860262_fmk2.jpg'
+  },
+  {
+    id: 'r6',
+    name: 'Radient w/Side stones',
+    url: 'https://i.etsystatic.com/25066512/r/il/7a555e/7627674535/il_794xN.7627674535_r7am.jpg'
+  },
+  {
+    id: 'r7',
+    name: 'Solitaire - Twisty Band',
+    url: 'https://i.etsystatic.com/14466790/r/il/0fbdf8/6757437140/il_794xN.6757437140_ogtx.jpg'
+  },
+  {
+    id: 'r8',
+    name: 'Oval w/Side Stones and Twisted Knot Band',
+    url: 'https://i.etsystatic.com/25066512/r/il/b5b81a/7607780770/il_794xN.7607780770_pb1s.jpg'
+  },
+  {
+    id: 'r9',
+    name: 'Solitaire - Crossover 1/2 Pave',
+    url: 'https://i.etsystatic.com/39029584/r/il/87d36a/5875986719/il_794xN.5875986719_cwzw.jpg'
+  }
+];
+
+export type Ring = {
+  id: string;
+  name: string;
+  url: string;
+};
+
+export default rings as Ring[];
