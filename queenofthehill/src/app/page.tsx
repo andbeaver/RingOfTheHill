@@ -134,7 +134,7 @@ export default function Home() {
               onClick={() => handlePick("champion")}
               className="w-full px-6 py-3 bg-gradient-to-r from-amber-600 to-amber-500 hover:from-amber-700 hover:to-amber-600 text-white rounded-lg font-medium transition-all shadow-md hover:shadow-lg"
             >
-              ✓ Keep as Champion
+              This 👑
             </button>
           </div>
 
@@ -156,7 +156,7 @@ export default function Home() {
               onClick={() => handlePick("challenger")}
               className="w-full px-6 py-3 bg-white dark:bg-slate-700 border-2 border-amber-600 text-amber-600 dark:text-amber-400 hover:bg-amber-50 dark:hover:bg-slate-600 rounded-lg font-medium transition-all"
             >
-              ⚡ Choose This One
+              That
             </button>
           </div>
         </div>
