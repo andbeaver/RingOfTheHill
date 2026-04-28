@@ -53,6 +53,25 @@ const rings = [
     ct: 1.0,
     url: 'https://i.etsystatic.com/39029584/r/il/87d36a/5875986719/il_794xN.5875986719_cwzw.jpg'
   }
+  ,
+  {
+    id: 'r10',
+    name: 'Gothic Bat Wing Garnet',
+    ct: 'Unknown',
+    url: 'https://i.etsystatic.com/63077778/r/il/5b2508/8005892075/il_1588xN.8005892075_o2xw.jpg'
+  },
+  {
+    id: 'r11',
+    name: 'Heart',
+    ct: 'Unknown',
+    url: 'https://i.etsystatic.com/21916549/r/il/e2c3ad/7910522937/il_1588xN.7910522937_r4jh.jpg'
+  },
+  {
+    id: 'r12',
+    name: 'Three Oval Stone Peach Sapphire',
+    ct: 'Unknown',
+    url: 'https://i.etsystatic.com/63160342/r/il/b167cf/8005687657/il_1588xN.8005687657_lz3d.jpg'
+  }
 ];
 
 export type Ring = {
